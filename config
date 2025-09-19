@@ -1,0 +1,20 @@
+tiktok-rewards/
+├─ server/
+│  ├─ package.json
+│  ├─ server.js
+│  ├─ config.js
+│  ├─ models/
+│  │  ├─ User.js
+│  │  ├─ Video.js
+│  │  └─ Action.js
+│  ├─ routes/
+│  │  ├─ auth.js
+│  │  ├─ videos.js
+│  │  ├─ actions.js
+│  │  └─ admin.js
+│  └─ uploads/              # for screenshots (gitignore in README)
+├─ client/
+│  ├─ index.html
+│  ├─ app.js
+│  └─ styles.css
+└─ README.md
